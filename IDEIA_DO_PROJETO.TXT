@@ -1,0 +1,26 @@
+API DE BANCO
+
+-FUNCOES-
+    -CRIACAO DE CONTA
+        -AUTENTICACAO
+            -USUARIO
+            -SENHA
+        -NOVA CONTA
+            -FIRSTNAME
+            -LASTNAME
+            -USUARIO
+            -SENHA
+            -SALDO
+    -EDICAO DE CONTA
+        -ATUALIZAR DADOS
+        -EXCLUIR CONTA
+            -TODAS
+            -INDIVIDUAL
+    -TRANSACOES BANCARIAS
+        -DEPOSITOS
+        -TRANSFERENCIAS
+        -SAQUE
+    -EXTRATOS
+        -TRANSACOES
+        -FILTRO POR DATA
+        -FILTRO POR TIPO DE TRANSACAO
