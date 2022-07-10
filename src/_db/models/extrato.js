@@ -36,9 +36,9 @@ const Extrato = database.define('extrato', {
   },
 }, { timestamps: false });
 
-Extrato.afterCreate(async (extrato, options) => {
-  console.log(`${extrato.tipo} de R$${extrato.valor} feito com sucesso para ${extrato.toUser}!`);
-});
+// Extrato.afterCreate(async (extrato, options) => {
+//   console.log(`${extrato.tipo} de R$${extrato.valor} feito com sucesso para ${extrato.toUser}!`);
+// });
 
 await Extrato.sync();
 // await Extrato.sync({ force: true });

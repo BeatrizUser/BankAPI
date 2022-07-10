@@ -14,7 +14,7 @@ app.use(Rotas.routes());
 
 // ---------------------------------------------------
 app.use(router.routes()).use(router.allowedMethods());
-app.listen(3001, () => {
+app.listen(3000, () => {
   console.log('Servidor Funcionando em http://localhost:3001');
   console.log('Para encerrar o servidor: ctrl + c');
 });
