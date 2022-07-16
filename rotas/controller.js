@@ -1,8 +1,8 @@
 import Router from 'koa-router';
-import Conta from '../src/_db/models/conta.js';
-import Extrato from '../src/_db/models/extrato.js';
-import Auth from '../src/_db/models/auth.js';
-import Saque from '../src/_db/models/auth.js';
+import Conta from '../src/db/models/conta.js';
+import Extrato from '../src/db/models/extrato.js';
+import Auth from '../src/db/models/auth.js';
+import Saque from '../src/db/models/auth.js';
 
 const router = new Router();
 

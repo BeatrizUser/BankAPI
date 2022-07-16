@@ -1,5 +1,5 @@
 import Sequelize from 'sequelize';
-import database from '../../_config/db.js';
+import database from '../../config/db.js';
 
 const Conta = database.define('conta', {
   id: {
