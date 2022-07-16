@@ -19,7 +19,6 @@ const Conta = database.define('conta', {
   user: {
     type: Sequelize.STRING,
     allowNull: false,
-    unique: true,
   },
   password: {
     type: Sequelize.STRING,
@@ -30,7 +29,7 @@ const Conta = database.define('conta', {
 
 }, { timestamps: false });
 
-Conta.afterCreate(async (conta, options) => {
+Conta.afterCreate(async (conta) => {
   console.log('Nova conta criada com sucesso!');
   console.log(`Titular: ${conta.firstname} ${conta.lastname}`);
   console.log(`User: ${conta.user}`);

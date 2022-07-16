@@ -1,4 +1,4 @@
-import database from './conta.js';
+import database from '../db/models/conta.js';
 
 const Auth = (payload) => database.findOne({ where: payload });
 
